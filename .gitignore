@@ -1,0 +1,33 @@
+### Node Modules ###
+node_modules/
+
+### Environment Variables ###
+.env
+
+### Logs ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Build & Dependencies ###
+dist/
+build/
+
+### Editor & OS Files ###
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+### Server Specific ###
+coverage/
+
+### MongoDB Data ###
+/data/
+*.log
+dump/
+
+### Miscellaneous ###
+*.lock
+package-lock.json
+yarn.lock
